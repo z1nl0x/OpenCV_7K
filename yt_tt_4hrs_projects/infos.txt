@@ -1,0 +1,45 @@
+Open CV Youtube Tutorial - Thank You Murtaza!
+
+link: https://www.youtube.com/watch?v=WgPbbWmnXJ8
+
+Introduction
+
+O que é detecção de objetos?
+
+R: É uma técnica de Visão Computacional que detecta objetos em uma imagem ou vídeo.
+
+1) Classificação de Objetos -> É um tipo de reconhecimento de imagem que visa identificar que classificando qual 
+tipo de objeto está presente em uma imgem.
+
+2) Detecção de Objetos -> É um tipo de reconhecimento de imagem que visa identificar a presença de um objeto através 
+da localização desses objetos e consequentemente trazendo assim também sua classificação. 
+
+3) Segmentação de Objetos -> É um tipo de reconhecimento de imagem que visa identificar a presença de um objeto através 
+de uma óptica pixelizada (inventei esse termo agora mesmo, foda-se se existe ou não, mas é isso, algo derivado da palavra pixel xD).
+
+Sendo a tericeira opção a mais utilizada por ser mais otimizada e consumir menos cursos do hardware hu3.
+
+
+YOLO HELL YEAH
+
+Validando métricas de perforce
+
+Qual boa é a localização/metragem do objeto? (IoU - Intersection Over Union)
+R: É um valor que varia de 0 até 1, sendo que 1 a detecção do tamanho/localização do objeto está excelente.
+Fórmula: IoU = Área da Interseção / dividindo / Pela Área total da União dos objetos
+
+Qual boa é a classficiação? (mAP - )
+
+Para entendermos uma excelente precição o que são:
+
+Confusion Matrix - Verdadeiro Positivo, Verdadeiro Negativo, Falso Positivo, Falso Negativo
+
+Precisão - Uma totalidade de previsões positivas
+OBS: De acordo com a matemática a Precisão pode ser calculada como:
+ P = Verdadeiros Positivos / Verdadeiros Positivos + Falsos positivos
+
+Rechamada - Todos os positivos relativos a todas as previsões
+OBS: De acordo com a matemática a Precisão pode ser calculada como:
+ P = Verdadeiros Positivos / Verdadeiros Positivos + Falsos negativos
+
+ Combinando os dois temos o que chamamos de Precisão Média
